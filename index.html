@@ -1,0 +1,30 @@
+<html>
+ <head>
+ <title>js animation</title>
+ <link rel="stylesheet" href="./style.css" />
+ </head>
+ <body>
+   <section>
+    <h2>Debjyoti</h2>
+    <div class="banner">
+     <div class="blocks"></div>
+    </div>
+   </section>
+   <script type="text/javascript">
+  function c(){ var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } }
+   //c();
+    const banner=document.getElementsByClassName("banner")[0];
+    const blocks=document.getElementsByClassName("blocks");
+   for(var a=1;a<401;a++){
+    banner.innerHTML +="<div class='blocks'></div>";
+    const duration=Math.random()*5;
+    blocks[a].style.animationDuration=2+duration+'s';
+    blocks[a].style.animationDelay=duration+'s';
+   }
+  setTimeout(function(){ 
+    const section = document.querySelector("section");
+    section.classList.add('active');
+  },20000);
+   </script>
+ </body>
+</html>
