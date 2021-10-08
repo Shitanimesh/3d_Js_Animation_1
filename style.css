@@ -42,7 +42,6 @@ section h2{
  display:block;
  width:5vw;
  height:5vh;
- //background:#fff;
  animation:animate 2s ease-in-out forwards;
  animation-delay:1s;
 
@@ -65,7 +64,6 @@ section h2{
   background-position:center;
   background-attachment:fixed;
   background-size:cover;
-//  border: 1px solid rgba(0,0,0,0.1);
   box-shadow:0 5px 15px rgba(0,0,0,0,0);
  }
 }
@@ -75,8 +73,7 @@ section.active .banner .blocks{
  background-position:center;
  background-attachment:fixed;
  background-size:cover;
- //border: 1px solid rgba(0,0,0,0.1);
- //box-shadow:0 5px 15px rgba(0,0,0,0,0);
+ 
  
 
 }
@@ -89,7 +86,6 @@ section.active .banner .blocks{
   background-position:center;
   background-attachment:fixed;
   background-size:cover;
-  //border: 1px solid rgba(0,0,0,0.1);
   box-shadow:0 5px 15px rgba(0,0,0,0,0.5); 
  }
  100%
